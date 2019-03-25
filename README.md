@@ -74,7 +74,7 @@ Detailed assignments will be provided separately.
 * Mon, 1/21. **No class** (MLK Day).
 * Weds, 1/23. 
   * Read Bengfort et al., chapter 1 (language and computation). 
-  * Due: [Implement `parse_gender` function](https://github.com/wilkens-teaching/textmining/blob/master/exercises/01%20gender.ipynb) as described (pp. 10-12). Submit output for three literary texts from the class corpus on GitHub. [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/01%20gender%20answer.ipynb).
+  * Due: [Implement `parse_gender` function](https://github.com/wilkens-teaching/textmining/blob/master/exercises/01%20gender.ipynb) as described (pp. 10-12). Submit output for three literary texts from the class corpus (located on GitHub). [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/01%20gender%20answer.ipynb).
 
 **Week 3** 
 
@@ -86,7 +86,7 @@ Detailed assignments will be provided separately.
 
 * Mon, 2/4. **No class** (instructor travel).
 * Weds, 2/6. 
-  * Due: [Write an NLTK `PlaintextCorpusReader` function that ingests the class corpus](https://github.com/wilkens-teaching/textmining/blob/master/exercises/02%20corpus%20reader.ipynb).[[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/02%20corpus%20reader%20answer.ipynb).
+  * Due: [Write an NLTK `PlaintextCorpusReader` function that ingests the class corpus](https://github.com/wilkens-teaching/textmining/blob/master/exercises/02%20corpus%20reader.ipynb). [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/02%20corpus%20reader%20answer.ipynb).
   * Read chapter 3 (preprocessing).
 
 **Week 5** 
@@ -94,7 +94,7 @@ Detailed assignments will be provided separately.
 * Mon, 2/11.
   * Read chapter 4 (vectorization).
 * Weds, 2/13.
-  * Due: [Build a processed and pickled version of the class corpus as described in the chapter, then work with the data](https://github.com/wilkens-teaching/textmining/blob/master/exercises/03%20corpus%20reader%20advanced.ipynb).
+  * Due: [Build a processed and pickled version of the class corpus as described in the chapter, then work with the data](https://github.com/wilkens-teaching/textmining/blob/master/exercises/03%20corpus%20reader%20advanced.ipynb).  [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/03%20corpus%20reader%20advanced%20answer.ipynb)
 
 **Week 6-7**. No formal classes (instructor travel).
 
@@ -108,7 +108,7 @@ Detailed assignments will be provided separately.
 
 * Mon, 3/4
   * Read chapters 5-6 (classification and clustering)
-  * Due: Vectorize the corpus using the Scikit-Learn `TfidfVectorizer`. Visualize output via PCA.
+  * Due: [Vectorize the corpus using the Scikit-Learn `TfidfVectorizer`.](https://github.com/wilkens-teaching/textmining/blob/master/exercises/04%20vectorization.ipynb) Visualize output via PCA. [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/04%20vectorization%20answers.ipynb)
 * Weds, 3/6
   * Review chapters 5-6.
 
@@ -119,42 +119,41 @@ Detailed assignments will be provided separately.
 * Mon, 3/18.
   * Read chapter 7 (context-aware analysis).
 * Weds, 3/6.
-    * Due: [Build and evaluate a system that classifies corpus texts as *either* male/female *or* British/American.](https://github.com/wilkens-teaching/textmining/blob/master/exercises/05%20classification.ipynb)
+    * Due: [Build and evaluate a system that classifies corpus texts as *either* male/female *or* British/American.](https://github.com/wilkens-teaching/textmining/blob/master/exercises/05%20classification.ipynb) [[Answer]](https://github.com/wilkens-teaching/textmining/blob/master/exercises/05%20classification%20answers.ipynb)
 
 **Week 11**
 
-* Mon, 3/25.
+* Mon, 3/25. **Class begins at 11:30am and runs until 12:45pm.**
   * Read chapter 8 (visualization).
-  * Read Tufte article.
 * Wed, 3/27.
-  * Due: Build a system that performs topic modeling on the corpus texts and clusters those texts based on their topical content.
+  * Due: [Build a system that performs topic modeling and clustering on the corpus texts](https://github.com/wilkens-teaching/textmining/blob/master/exercises/06%20clustering.ipynb).
 
-**Week 12**
+**Week 12** 
 
-* Mon, 4/1.
-  * Read chapter 9 (networks).
-* Weds, 4/3.
-  * Due: Reimplement the gender/nationality classification system using n-gram features as described in chapter 7. Evaluate the performance of the new model relative to the unigram original.
+Independent work week (project proposal).
+
+Use both class meetings this week to make progress on your final project. Attendance is optional, but strongly encouraged. Talk to your peers about your ideas and the state of your work. Listen to what they suggest and offer suggestions to them. The aim is to end the week with a solid idea of what you'd like to do, how you can do it, and what you'll need to get it done.
 
 **Week 13**
 
 * Mon, 4/8.
-  * Read chapter 11 (multiprocessing). Note that we will skip chapter 10 (chatbots).
-  * Due: Visualization exercise.
+  * Read chapter 9 (networks).
+  * Due: project proposal. 300-500 words covering your research question, corpus, methods, and hypotheses.
 * Weds, 4/10.
-  * Due: Project proposal.
+  * Due: Reimplement the gender/nationality classification system using n-gram features as described in chapter 7. Evaluate the performance of the new model relative to the unigram original.
 
 **Week 14**
 
 * Mon, 4/15.
-  * Read chapter 12 (neural networks).
+  * Read chapter 11 (multiprocessing). Note that we will skip chapter 10 (chatbots).
 * Weds, 4/17.
   * Due: Implement entity resolution via graph structure to select the entities in one corpus text.
 
+
 **Week 15**
 
-* Mon, 4/22. Topics and readings to be determined by class.
-* Weds, 4/24. Topics and readings to be determined by class.
+* Mon, 4/22. Read chapter 12 (deep learning).
+* Weds, 4/24.
   * Due: Reimplement your classification system to run on multiple cores. Evaluate time improvement for classification over the corpus.
 
 **Week 16**
